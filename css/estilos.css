@@ -2,29 +2,47 @@
   font-family: 'DancingScript-Regular.otf';
   src: url('DancingScript-Regular.otf');
 }
-body{
+*{
   width: 900px;
   background-color:  #02010a;
-  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
 }
 header{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
-}
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100px;
+  }
 h1{
+  background-color: #5b7989;
   font-family: 'DancingScript-Regular.otf';
   color: white;
+  text-align: left;
+  /*display: inline;*/
+  height: 40%;
+  margin-top: 30px;
+  margin-left:20px;
+  float: left;
   width: 50%;
-  margin-top: auto;
-}
+  }
 nav{
-  width: 50%;
+  background-color: #5b7989;
+  text-align: right;
+  height: 40%;
+  margin-top: 45px;
+  float: right;
+  width: 20%;
+  margin-right: 20px;
+
 }
 a{
+  background-color: #5b7989;
   font-family: 'DancingScript-Regular.otf';
   color: white;
+  margin-left: 10px;
 }
 #central{
   background-color: #82c3a6;
