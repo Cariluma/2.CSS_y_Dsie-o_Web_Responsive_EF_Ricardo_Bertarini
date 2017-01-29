@@ -1,62 +1,109 @@
 @font-face {
-  font-family: 'DancingScript-Regular.otf';
-  src: url('DancingScript-Regular.otf');
+ font-family: 'DancingScript-Regular.otf';
+ src: url('DancingScript-Regular.otf');
 }
-*{
+html{
+border:0;
+margin:0;
+}
+html, body {
+margin: 0;
+padding: 0;
+}
+body{
+  background-color: black;
   width: 900px;
-  background-color:  #02010a;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
 }
 header{
-  background-color: #5b7989;
+  width: 900px;
   border-radius: 10px 10px 0px 0px;
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 100px;
-  }
-h1{
   background-color: #5b7989;
+  margin: 0;
+  border: 0;
+  height: 120px;
+  top: 0;
+  position: absolute;
+}
+.contenido_encabezado{
+  display: flex;
+  flex-direction: row;
+}
+.contenido_encabezado > div >h1{
+  margin: 30px;
+  width: 100%;
+}
+.contenido_encabezado > div >nav{
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 100%;
+}
+.contenido_encabezado > div{
+  text-align: left;
+  padding: 0px;
+}
+
+h1{
+  text-align: left;
+  text-shadow: 2px 2px 1px #02010a;
   font-family: 'DancingScript-Regular.otf';
   color: white;
-  text-align: left;
-  /*display: inline;*/
-  height: 40%;
-  margin-top: 30px;
-  margin-left:20px;
-  float: left;
-  width: 50%;
-  }
+  top 0;
+}
 nav{
-  background-color: #5b7989;
+  margin-top: 40px;
   text-align: right;
-  height: 40%;
-  margin-top: 45px;
-  float: right;
-  width: 20%;
-  margin-right: 20px;
-
 }
 a{
-  background-color: #5b7989;
+  margin-left: 20px;
+  font-size: 20px;
   font-family: 'DancingScript-Regular.otf';
   color: white;
-  margin-left: 10px;
 }
-#central{
+#Imagen_central{
+ height: 300px;
   background-color: #82c3a6;
-  width: 100%;
-  height: 100px;
+  text-align: center;
 }
-#secundaria{
-  background-color: #d5c75f;
-  width: 100%;
-  height: 100px;
+.imagen1{
+margin-top: 30px;
+}
+#Imagen_secundaria{
+  height: 250px;
+  background-color:  #d5c75f;
+}
+#contenido{
+  margin-top: 120px;
 }
 footer{
   background-color: #C6d5c5;
   border-radius: 0px 0px 10px 10px;
-  width: 100%;
-  height: 100px;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+li{
+  font-family: 'DancingScript-Regular.otf';
+  color: black;
+}
+.contenido_imagenes{
+  display: flex;
+  flex-direction: row;
+}
+.contenido_imagenes > div{
+  text-align: center;
+  padding: 0px;
+  margin: 40px;
+  width: 40%;
+}
+.contenido_menu{
+  display: flex;
+  flex-direction: row;
+}
+.contenido_menu > div {
+  text-align: left;
+	padding: 0px;
+	margin-left: 40px;
+	width: 40%;
 }
